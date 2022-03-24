@@ -1,0 +1,194 @@
+.locationcard{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5%;
+
+}
+.map{
+    height: 50%;
+    width: 50%;
+    margin-left:25%;
+    stroke:white;
+    stroke-width:1px;
+    filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
+     drop-shadow(5px 5px 5px rgba(0,0,0,0.5))
+     drop-shadow(5px 5px 5px rgba(0,0,0,0.2))
+}
+.navcity{
+    color:rgb(14, 74, 92);
+    font-weight:bold;
+    font-size: 14px;
+
+}
+.boxdistricts{
+    margin-Left: 27%;
+    margin-Top: 2%;
+    border-Radius: 30px;
+}
+.checkboxes{
+    position: absolute;
+    margin-top: 18%; 
+    margin-left: 20%;
+
+}
+.checkbox{
+    margin-Top: 2px 
+
+}
+
+.dialog{
+    width: 40em;
+    height: 30em;
+}
+
+
+.preview{
+    background-color:#138fa5;
+    border-radius:25px;
+    color:white;
+}
+
+.preview:hover{
+    background-color:rgb(14, 74, 92);
+}
+
+h1{
+    color:black;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(14, 74, 92);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.buttonbox{
+    margin-left: 43%;
+}
+
+
+
+svg path:hover{
+    fill:rgb(14, 74, 92);
+
+
+}
+svg polygon:hover{
+    fill:rgb(14, 74, 92);
+
+}
+
+
+
+.locationcardbody{
+    display:flex;
+    flex-direction:row;
+}
+
+
+.st0{fill:#138fa5;}
+.st1{fill:#138fa5;}
+.st2{fill:#138fa5;}
+.st3{fill:#138fa5;}
+.st4{fill:#138fa5;}
+.st5{fill:#138fa5;}
+.st6{ fill:#138fa5;}
+.st7{fill:#138fa5;}
+.st8{fill:#138fa5;}
+.st9{fill:#138fa5;}
+.st10{fill:#138fa5;}
+.st11{fill:#138fa5;}
+.st12{fill:#138fa5;}
+.st13{fill:#138fa5;}
+.st14{ fill:#138fa5;}
+.st15{fill:#138fa5;}
+.st16{fill:#138fa5;}
+.st17{fill:#138fa5;}
+.st18{fill:#138fa5;}
+.st19{fill:#138fa5;}
+.st20{fill:#138fa5;}
+.st21{fill:#138fa5;}
+.st22{ fill:#138fa5;}
+.st23{fill:#138fa5;}
+.st24{fill:#138fa5;}
+.st25{fill:#138fa5;}
+
+.selected{
+    fill:#1e5a64;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    height:3em;
+    padding-left: 20%;
+    margin-right:20%;
+    margin-top:10px;
+    bottom:0;
+}
+.switch{margin-top: 7px}
+
+.exportcsv:hover{
+    background-color:#00a5c2
+}
+
+.vip{
+    margin-top: 11px;
+    margin-right: 6px  
+}
+.exportcsv{
+    background-color: #138fa5;
+    color: white;
+    border-radius: 40px;
+    width: 50%;
+    margin-right: 10%;
+    border-width:0px;
+    height:80%;
+    margin-top:4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+ 
+  @media only screen and (max-width: 900px) {
+    .locationcard{
+        height: 40em;
+        width: 100%;
+    }
+
+    .boxdistricts{
+        margin-left: 4em;
+        margin-right:0px
+    }
+    .checkboxes{
+        margin-left:5em;
+
+    }
+
+    .map{
+        height:100%;
+        width: 100%;
+        margin-left: 10%;
+ 
+    }
+    
+    .locationcardbody{
+        flex-direction: column;
+    }
+
+    
+
+
+    
+   
+
+
+
+    
+  }

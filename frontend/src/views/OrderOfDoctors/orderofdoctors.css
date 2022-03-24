@@ -1,0 +1,103 @@
+.ofdcard{
+    height: 10em;
+    width: 100%;
+}
+.ofdcardbody{
+    display:flex;
+    flex-direction:row;
+}
+.ofddropdown{
+    width: 20%;
+    height: 80%;
+    margin-Right:4%;
+}
+.ofdcampaigninput{
+    width: 20%;
+    height: 80%;
+    margin-Right:4%;
+
+}
+
+.ofdtotalinput{
+    width: 14%;
+    height: 80%;
+    margin-Right:4%;
+}
+.searchofd{
+    width: 10%;
+    height: 80%;
+}
+.ofdminmax{
+    margin-right: 3%;
+
+
+}
+.ofdtable{
+    padding-bottom: 3%;
+   
+}
+
+ 
+  @media only screen and (max-width: 900px) {
+    .ofdcard{
+        height: 24em;
+        width: 20em;
+        margin-left: 30%;
+    }
+    .ofdtable{
+        width: 20em;
+        margin-left: 30%;
+
+
+    }
+    .ofdcardbody{
+        flex-direction: column;
+    }
+    .ofdminmax{
+
+        margin-top: 6%;
+        margin-left: 15%;    }
+    
+    .ofddropdown{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+    }
+    .ofdcampaigninput{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%
+
+    }
+    
+   
+    .ofdtotalinput{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%;
+        margin-left: 0%;
+    }
+    .searchofd{
+        margin-right: 0;
+        width: 60%;
+        height: 20%;
+        margin-top: 4%;
+        margin-left: 17%;
+
+    }
+
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .ofdcard{
+       
+        margin-left: 20%;
+    }
+    .ofdtable{
+        margin-left: 20%;
+
+
+    }
+}

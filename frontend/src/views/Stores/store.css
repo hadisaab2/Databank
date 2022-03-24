@@ -1,0 +1,114 @@
+.card{
+    width: 100%;
+}
+.cardbody{
+    display:flex;
+    flex-direction:row;
+}
+.dropdown1{
+    width:25%;
+    margin-Right:4%;
+}
+.dropdown1A{
+    width:47%;
+    margin-Right:4%;
+}
+
+.dropdown2{
+    width: 25%;
+    margin-Right:4%;
+
+}
+.dropdown2A{
+    width: 47%;
+    margin-Right:4%;
+    
+}
+
+.totalinput{
+    width: 20%;
+    height: 80%;
+    margin-Right:4%;
+}
+.searchstore{
+    width: 10%;
+    height: 80%;
+}
+.tablestore{
+    width: 100%;
+    margin-top: 5%;
+}
+.pagination{
+    margin-left: 70%;
+}
+.confirm{
+    margin-top:5%;
+    background-color:#138fa5;
+    border-width: 0px;
+    border-radius: 20px;
+    color:white;
+    height:30px;
+    margin-bottom:10px;
+    margin-left: 80%;
+}
+
+ 
+  @media only screen and (max-width: 900px) {
+    .card{
+        height: 35em;
+        width: 20em;
+        margin-left: 31%;
+    }
+    .cardbody{
+        flex-direction: column;
+    }
+    .dropdown1{
+        margin-right: 0;
+        width: 100%;
+        margin-top: 8%;
+
+    }
+    .dropdown1A{
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10%;
+        margin-top: 8%;
+
+
+    }
+    .dropdown2{
+        margin-right: 0;
+        width: 100%;
+        margin-top: 8%;
+
+    }
+    .dropdown2A{
+        margin-right: 0;
+        width: 95%;
+        margin-bottom: 10%;
+        margin-top: 8%;
+    }
+    .totalinput{
+        margin-right: 0;
+        width: 100%;
+        height: 10%;
+        margin-top: 8%
+    }
+    .pagination{
+        margin-left: 0%;
+    }
+    .searchstore{
+        margin-right: 0;
+        width: 100%;
+        height: 10%;
+        margin-top: 8%
+
+    }
+
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .card{
+        margin-left: 20%;
+    }
+}

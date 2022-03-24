@@ -1,0 +1,103 @@
+.oflcard{
+    height: 10em;
+    width: 100%;
+}
+.oflcardbody{
+    display:flex;
+    flex-direction:row;
+}
+.ofldropdown{
+    width: 20%;
+    height: 80%;
+    margin-Right:4%;
+}
+.oflcampaigninput{
+    width: 20%;
+    height: 80%;
+    margin-Right:4%;
+
+}
+
+.ofltotalinput{
+    width: 14%;
+    height: 80%;
+    margin-Right:4%;
+}
+.searchofl{
+    width: 10%;
+    height: 80%;
+}
+.oflminmax{
+    margin-right: 3%;
+
+
+}
+.ofltable{
+    padding-bottom: 3%;
+   
+}
+
+ 
+  @media only screen and (max-width: 900px) {
+    .oflcard{
+        height: 24em;
+        width: 20em;
+        margin-left: 30%;
+    }
+    .ofltable{
+        width: 20em;
+        margin-left: 30%;
+
+
+    }
+    .oflcardbody{
+        flex-direction: column;
+    }
+    .oflminmax{
+
+        margin-top: 6%;
+        margin-left: 15%;    }
+    
+    .ofldropdown{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+    }
+    .oflcampaigninput{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%
+
+    }
+    
+   
+    .ofltotalinput{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%;
+        margin-left: 0%;
+    }
+    .searchofl{
+        margin-right: 0;
+        width: 60%;
+        height: 20%;
+        margin-top: 4%;
+        margin-left: 17%;
+
+    }
+
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .oflcard{
+       
+        margin-left: 20%;
+    }
+    .ofltable{
+        margin-left: 20%;
+
+
+    }
+}

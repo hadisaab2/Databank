@@ -1,0 +1,48 @@
+.dialogs{
+    height: 23em;
+    width:40em;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.img{
+    width:10em;
+    height:10em;
+    border-radius: 5em;
+}
+
+.upload{
+    display:none
+
+}
+
+.file{
+    display: none;
+}
+
+.custom-file-upload{
+    background-color: #138fa5;
+    border-radius:20px;
+    border: 0px;
+    color:white;
+    width:10em;
+    height:2em;
+    margin-top: 15%;
+    text-align: center;
+    padding-top: 3px;
+    cursor: pointer
+}
+.adduser{
+    background-color: #138fa5;
+    border-radius:20px;
+    border: 0px;
+    color:white;
+    width:4em;
+    height:2em;
+    margin-top: 12px;
+    margin-left: 80%;
+    text-align: center;
+
+}

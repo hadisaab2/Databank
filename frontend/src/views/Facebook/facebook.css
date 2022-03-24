@@ -1,0 +1,98 @@
+.facebookcard{
+    height: 10em;
+    width: 100%;
+}
+.facebookcardbody{
+    display:flex;
+    flex-direction:row;
+}
+.facebookdropdown{
+    width: 30%;
+    height: 80%;
+    margin-Right:4%;
+}
+
+.facebooktotalinput{
+    width: 30%;
+    height: 80%;
+    margin-Right:4%;
+}
+.searchfacebook{
+    width: 13%;
+    height: 80%;
+}
+.facebookminmax{
+    margin-right: 3%;
+
+
+
+}
+.facebooktable{
+    padding-bottom: 3%;
+   
+}
+
+ 
+  @media only screen and (max-width: 900px) {
+    .facebookcard{
+        height: 20em;
+        width: 20em;
+        margin-left: 30%;
+    }
+    .facebooktable{
+        width: 20em;
+        margin-left: 30%;
+
+
+    }
+    .facebookcardbody{
+        flex-direction: column;
+    }
+    .facebookminmax{
+
+        margin-top: 6%;
+        margin-left: 15%;    }
+    
+    .facebookdropdown{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+    }
+    .facebookinput{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%
+
+    }
+    
+   
+    .facebooktotalinput{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%;
+        margin-left: 0%;
+    }
+    .searchfacebook{
+        margin-right: 0;
+        width: 60%;
+        height: 20%;
+        margin-top: 4%;
+        margin-left: 17%;
+
+    }
+
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .facebookcard{
+       
+        margin-left: 20%;
+    }
+    .facebooktable{
+        margin-left: 20%;
+
+
+    }
+}

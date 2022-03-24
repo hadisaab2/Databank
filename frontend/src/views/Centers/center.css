@@ -1,0 +1,75 @@
+.card{
+    height: 10em;
+    width: 100%;
+}
+.cardbody{
+    display:flex;
+    flex-direction:row;
+}
+.dropdown1{
+    width: 25%;
+    height: 80%;
+    margin-Right:4%;
+}
+.dropdown2{
+    width: 25%;
+    height: 80%;
+    margin-Right:4%;
+}
+.totalinput{
+    width: 25%;
+    height: 80%;
+    margin-Right:4%;
+}
+.searchstore{
+    width: 10%;
+    height: 80%;
+}
+.tablestore{
+    width: 100%;
+    margin-top: 5%;
+}
+
+ 
+  @media only screen and (max-width: 900px) {
+    .card{
+        height: 20em;
+        width: 20em;
+        margin-left: 31%;
+    }
+    .cardbody{
+        flex-direction: column;
+    }
+    .dropdown1{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+    }
+    .dropdown2{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%
+    }
+    .totalinput{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%
+    }
+    .searchstore{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%
+
+    }
+
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .card{
+        
+        margin-left: 20%;
+    }
+}

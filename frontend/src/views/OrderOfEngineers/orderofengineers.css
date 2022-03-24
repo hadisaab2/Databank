@@ -1,0 +1,103 @@
+.ofecard{
+    height: 10em;
+    width: 100%;
+}
+.ofecardbody{
+    display:flex;
+    flex-direction:row;
+}
+.ofedropdown{
+    width: 20%;
+    height: 80%;
+    margin-Right:4%;
+}
+.ofecampaigninput{
+    width: 20%;
+    height: 80%;
+    margin-Right:4%;
+
+}
+
+.ofetotalinput{
+    width: 14%;
+    height: 80%;
+    margin-Right:4%;
+}
+.searchofe{
+    width: 10%;
+    height: 80%;
+}
+.ofeminmax{
+    margin-right: 3%;
+
+
+}
+.ofetable{
+    padding-bottom: 3%;
+   
+}
+
+ 
+  @media only screen and (max-width: 900px) {
+    .ofecard{
+        height: 24em;
+        width: 20em;
+        margin-left: 30%;
+    }
+    .ofetable{
+        width: 20em;
+        margin-left: 30%;
+
+
+    }
+    .ofecardbody{
+        flex-direction: column;
+    }
+    .ofeminmax{
+
+        margin-top: 6%;
+        margin-left: 15%;    }
+    
+    .ofedropdown{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+    }
+    .ofecampaigninput{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%
+
+    }
+    
+   
+    .ofetotalinput{
+        margin-right: 0;
+        width: 100%;
+        height: 20%;
+        margin-top: 4%;
+        margin-left: 0%;
+    }
+    .searchofe{
+        margin-right: 0;
+        width: 60%;
+        height: 20%;
+        margin-top: 4%;
+        margin-left: 17%;
+
+    }
+
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .ofecard{
+       
+        margin-left: 20%;
+    }
+    .ofetable{
+        margin-left: 20%;
+
+
+    }
+}
